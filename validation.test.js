@@ -1,5 +1,6 @@
-// tests/validation.test.js
-import { validateFields } from '../src/utils/validation.js';
+
+import { validateFields } from './src/utils/validation.js';
+
 
 describe('Валідація полів курсів (R1.12)', () => {
   
