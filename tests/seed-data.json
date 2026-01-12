@@ -1,0 +1,40 @@
+{
+  "courses": [
+    {
+      "id": "seed-course-001",
+      "name": "Алгебра 7 клас",
+      "subject": "Математика",
+      "description": "Лінійні рівняння та нерівності",
+      "lessons": [],
+      "createdDate": "2025-09-01T08:00:00Z"
+    },
+    {
+      "id": "seed-course-002",
+      "name": "Геометрія 8 клас",
+      "subject": "Математика",
+      "description": "Трикутники та їх властивості",
+      "lessons": [],
+      "createdDate": "2025-09-01T09:00:00Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "seed-event-001",
+      "courseId": "seed-course-001",
+      "date": "20.12.2025",
+      "time": "09:00",
+      "duration": 60,
+      "zoomUrl": "https://zoom.us/j/123456789",
+      "status": "scheduled"
+    }
+  ],
+  "materials": [
+    {
+      "id": "seed-material-001",
+      "lessonId": "seed-event-001",
+      "name": "Презентація: Лінійні рівняння",
+      "type": "file",
+      "fileId": "file-uuid-123"
+    }
+  ]
+}
